@@ -258,7 +258,7 @@ tr:nth-child(even) {
 */
 .logoFrangue {
   width: 120px;
-  position: fixed;
+  position: sticky;
   padding: 3px;
   margin-left: 15px;
   margin-top: 7px;
@@ -309,7 +309,7 @@ tr:nth-child(even) {
 }
 
 .imagenFondoContacto {
-  background-image: url(../img/imagenfondo.jpg);
+  background-image: url(../img/imagenFondo.jpg);
   background-size: cover;
   background-position-y: center;
   height: calc(100vh-80px);
@@ -317,7 +317,7 @@ tr:nth-child(even) {
 }
 
 .imagenFondoTrabajos {
-  background-image: url(../img/imagenfondo.jpg);
+  background-image: url(../img/imagenFondo.jpg);
   background-size: cover;
   background-position-y: center;
   height: calc(100vh-80px);
