@@ -3,8 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  /* box-sizing: border-box; */
-}
+  }
 
 /* html{
     font-size: 62.5%;
@@ -13,7 +12,6 @@
 header {
   background-color: #898b87;
   height: 80px;
-  /* padding: 10px; */
   position: sticky;
   top: 0;
   border-bottom: #3fbbc0 solid 2px;
@@ -265,7 +263,7 @@ tr:nth-child(even) {
   margin-top: 7px;
 }
 
-.instagram {
+/* .instagram {
   position: fixed;
   right: 30px;
   top: 25px;
@@ -275,7 +273,7 @@ tr:nth-child(even) {
   position: fixed;
   right: 26px;
   top: 50px;
-}
+} */
 
 .botonWhatsApp img {
   width: 70px;
@@ -331,9 +329,8 @@ tr:nth-child(even) {
   /* POSICION DEL MENSAJE DE LA SECCION */
   align-content: flex-end;
   height: 600px;
-  /* width: 40%; */
-  /* max-width: 400px; */
-  /* margin: 1%; */
+  padding: 10px;
+  margin-top: 10px;
 }
 
 .seccionesCabecera h1 {
