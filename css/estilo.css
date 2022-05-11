@@ -730,6 +730,8 @@ footer {
 /* 
     MEDIA QUERIES
 */
+@media screen and 
+
 @media screen and (max-width: 900px) {
 
 /* BARRA DE NAVEGACION VERTICAL */
@@ -821,11 +823,6 @@ footer {
     width: 96%;
   }
 
-  /* .cajaContacto {
-         padding: 0;
-         margin: 0;
-     } */
-
   .mapaGoogle iframe {
     padding: 0;
     width: 95%;
@@ -835,4 +832,6 @@ footer {
     padding: 0;
     width: 95%;
   }
+
 }
+
