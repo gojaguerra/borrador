@@ -7,6 +7,13 @@
     <title>Better Call Frangue</title>
     <link rel="stylesheet" href="../css/estilo.css">
     <script src="https://kit.fontawesome.com/6ab0217e5f.js" crossorigin="anonymous"></script>
+    
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    
+    <!-- AOS -->
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+
 </head>
 
 <body class="bodyPadreGridContacto">
@@ -67,6 +74,13 @@
             <section class="seccionesCabecera">
               <h1>Como nos contactas</h1>
             </section>
+            
+            <div class="cajaAnimada animate__animated animate__backInDown">
+                <h1>Better Call Frangue</h1>
+                <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi, quisquam?</p> -->
+                <a class="botonAsociar" href="#contacto">Escribinos!</a>
+            </div>
+
         </div>
 
        <nav class="cajaContacto">
@@ -81,7 +95,7 @@
 
         <form action="" class="cajaFormContacto">
             <h3>Formulario de Contacto</h3>
-            <fieldset class="contactoForm">
+            <fieldset class="contactoForm" id="contacto">
                 <!-- <legend>Formulario de Contacto</legend> -->
                 <label for="idNombre">Nombre</label>
                 <input class="campo campoAlto" id="idNombre" type="text" placeholder="Ingrese su nombre aqui">
@@ -100,7 +114,21 @@
             </fieldset>
             <br><br>
         </form>
-        </nav>
+
+ 
+        <section data-aos="fade-down" id="ubicacionContacto">
+            <h2>¿Dónde estamos ubicados?</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum debitis dolorem maiores perferendis,
+                atque provident et eum est facilis quas accusantium, modi obcaecati libero quisquam voluptate cumque vero at
+                magni, consequatur quo asperiores vitae! Voluptate perferendis, eligendi velit ipsam autem consectetur eius
+                animi sunt doloremque facere nulla laudantium. Facere rem provident delectus exercitationem natus distinctio
+                magnam minus, totam non. Quasi accusantium recusandae tempore. Dignissimos, est? Labore, porro doloribus!
+                Dignissimos pariatur veniam dolorem consequuntur aperiam labore quasi, sint voluptates est ullam itaque
+                aspernatur odit minus voluptate praesentium quae voluptas sunt. Rem illum placeat error harum doloremque at?
+                Magnam eos eaque voluptatem.</p>
+        </section>
+
+    </nav>
 
     </main>
 
