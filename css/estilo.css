@@ -17,6 +17,7 @@ header {
   position: sticky;
   top: 0;
   border-bottom: #3fbbc0 solid 2px;
+  z-index: 100;
 }
 
 footer {
@@ -730,8 +731,6 @@ footer {
 /* 
     MEDIA QUERIES
 */
-@media screen and 
-
 @media screen and (max-width: 900px) {
 
 /* BARRA DE NAVEGACION VERTICAL */
