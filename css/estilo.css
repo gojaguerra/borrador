@@ -300,7 +300,7 @@ tr:nth-child(even) {
 }
 
 .imagenFondoProductos {
-  background-image: url(../img/imagenfondo.jpg);
+  background-image: url(../img/imagenFondo.jpg);
   background-size: cover;
   background-position-y: center;
   height: calc(100vh-80px);
