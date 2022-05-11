@@ -293,7 +293,7 @@ tr:nth-child(even) {
  */
 
 .imagenFondo {
-  background-image: url(../img/imagenfondo.jpg);
+  background-image: url('../img/imagenfondo.jpg');
   background-size: cover;
   background-position-y: center;
   height: calc(100vh-80px);
